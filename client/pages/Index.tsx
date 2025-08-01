@@ -162,7 +162,7 @@ export default function Index() {
             </div>
             <div className="grid lg:grid-cols-12 gap-8">
               <div className="lg:col-span-6 lg:col-start-5">
-                <div className="body-small text-portfolio-text space-y-4">
+                <div className="font-inter text-[20px] font-normal leading-[30px] tracking-[-0.27px] text-portfolio-text space-y-4">
                   <p><span className="font-bold">2014 – 2016</span> B.A. in Wood Engineering, HNE University of Applied Sciences, Eberswalde</p>
                   <p><span className="font-bold">2017 – 2021</span> B.A. in Integrated Design Anhalt University of Applied Sciences, Dessau</p>
                   <p><span className="font-bold">2019 – 2020</span> Erasmus Semester in Fine Arts University of the Arts Poznań, Poland</p>
