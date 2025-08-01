@@ -53,18 +53,17 @@ export default function Index() {
       <header className="relative overflow-hidden">
         {/* Background stripe */}
         <div className="w-full h-52 bg-gradient-to-r from-gray-200 via-gray-300 to-gray-200 absolute top-0"></div>
-        
-        <div className="relative z-10 container mx-auto px-4 py-8">
-          <div className="flex justify-between items-start">
-            <h1 className="heading-large text-portfolio-text pt-8">
-              Marie Stelte
-            </h1>
-            <div className="mt-8">
-              <SmileyIcon />
-            </div>
+      </header>
+      <div className="relative z-10 w-full bg-portfolio-bg container mx-auto px-4 py-8">
+        <div className="flex justify-between items-start">
+          <h1 className="font-inter text-[40px] font-bold leading-[72px] tracking-[-0.72px] text-portfolio-text pt-8">
+            Marie Stelte
+          </h1>
+          <div className="mt-8">
+            <SmileyIcon />
           </div>
         </div>
-      </header>
+      </div>
 
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 lg:py-24">
