@@ -156,9 +156,9 @@ export default function Index() {
           </div>
 
           {/* Education Section */}
-          <div className="border-t border-portfolio-border pt-8">
+          <div className="border-t border-portfolio-border pt-8 font-inter">
             <div className="flex justify-between items-start mb-8">
-              <h3 className="heading-medium text-portfolio-text">education</h3>
+              <h3 className="font-inter text-[25px] font-normal leading-[36px] tracking-[-0.36px] text-portfolio-text">Education</h3>
             </div>
             <div className="grid lg:grid-cols-12 gap-8">
               <div className="lg:col-span-6 lg:col-start-5">
