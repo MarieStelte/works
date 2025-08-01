@@ -13,7 +13,20 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
       colors: {
+        // Marie Stelte Portfolio Colors
+        portfolio: {
+          bg: '#FFFAFF', // Main background
+          text: '#050401', // Main text color
+          'text-muted': 'rgba(5, 4, 1, 0.8)', // Muted text
+          border: '#303036', // Border color for dividers
+        },
+        // Keep existing shadcn colors for compatibility
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
