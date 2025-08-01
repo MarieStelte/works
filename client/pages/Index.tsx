@@ -177,7 +177,7 @@ export default function Index() {
           {/* Work Section */}
           <div className="border-t border-portfolio-border pt-8">
             <div className="flex justify-between items-start mb-8">
-              <h3 className="heading-medium text-portfolio-text">work</h3>
+              <h3 className="font-montserrat text-[25px] font-normal leading-[36px] tracking-[-0.36px] text-portfolio-text"><span className="font-inter">Work</span></h3>
             </div>
             <div className="grid lg:grid-cols-12 gap-8">
               <div className="lg:col-span-6 lg:col-start-5">
