@@ -134,7 +134,7 @@ export default function Index() {
           {/* Person Section */}
           <div className="border-t border-portfolio-border pt-8">
             <div className="flex justify-between items-start mb-8">
-              <h3 className="heading-medium text-portfolio-text">person</h3>
+              <h3 className="font-inter text-[25px] font-normal leading-[36px] tracking-[-0.36px] text-portfolio-text">person</h3>
             </div>
             <div className="grid lg:grid-cols-12 gap-8 items-start">
               <div className="lg:col-span-3">
@@ -147,8 +147,8 @@ export default function Index() {
                 </div>
               </div>
               <div className="lg:col-span-6 lg:col-start-5">
-                <p className="body-small text-portfolio-text">
-                  Marie Stelte is a Cologne-based integrated designer. She holds a B.A. in Integrated Design from the Bauhaus Dessau. 
+                <p className="font-inter text-[20px] font-normal leading-[30px] tracking-[-0.27px] text-portfolio-text">
+                  Marie Stelte is a Cologne-based integrated designer. She holds a B.A. in Integrated Design from the Bauhaus Dessau.
                   She works full-time as a Visual Designer in a marketing team and also takes on freelance design projects.
                 </p>
               </div>
