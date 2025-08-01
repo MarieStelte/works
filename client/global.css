@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -101,6 +102,32 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-portfolio-bg text-portfolio-text font-roboto;
+  }
+
+  /* Portfolio-specific typography */
+  .heading-large {
+    @apply font-inter text-[48px] font-bold leading-[72px] tracking-[-0.72px];
+  }
+
+  .heading-medium {
+    @apply font-montserrat text-[24px] font-bold leading-[36px] tracking-[-0.36px];
+  }
+
+  .body-large {
+    @apply font-roboto text-[32px] font-normal leading-[40px];
+  }
+
+  .body-medium {
+    @apply font-roboto text-[24px] font-normal leading-[32px];
+  }
+
+  .body-small {
+    @apply font-montserrat text-[18px] font-normal leading-[30px] tracking-[-0.27px];
+  }
+
+  /* Image placeholder styles */
+  .image-placeholder {
+    @apply bg-[#E5E5E5] border border-black border-opacity-30 flex items-center justify-center;
   }
 }
