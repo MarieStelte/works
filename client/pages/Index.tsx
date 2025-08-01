@@ -181,7 +181,7 @@ export default function Index() {
             </div>
             <div className="grid lg:grid-cols-12 gap-8">
               <div className="lg:col-span-6 lg:col-start-5">
-                <div className="body-small text-portfolio-text space-y-4">
+                <div className="font-inter text-[20px] font-normal leading-[30px] tracking-[-0.27px] text-portfolio-text space-y-4">
                   <p><span className="font-bold">2018</span> Student Assistant to Prof. Brigitte Hartwig, Anhalt University of Applied Sciences, Dessau</p>
                   <p><span className="font-bold">2010 – 2021</span> Archiving and Digitizing the Negative Collection of Photographer Harald Hauswald, Berlin</p>
                   <p><span className="font-bold">since 2020</span> Freelance Designer</p>
