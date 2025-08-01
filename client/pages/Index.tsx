@@ -75,7 +75,7 @@ export default function Index() {
           
           {/* Description */}
           <div className="max-w-4xl">
-            <p className="body-large text-portfolio-text leading-relaxed">
+            <p className="font-inter text-[25px] leading-[52px] text-portfolio-text">
               Marie is an integrated designer working as a visual designer with a strong focus on visual 
               communication and corporate identity. Through her education and practical experiences, she has 
               developed a holistic understanding of design as an interdisciplinary approach to problem-solving, 
