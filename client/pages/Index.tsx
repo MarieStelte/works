@@ -35,11 +35,11 @@ const ProjectCard = ({
     </div>
     <div className="w-full lg:w-1/2 space-y-4 lg:pt-8">
       <Link to={link} className="block">
-        <h3 className="heading-medium text-portfolio-text hover:opacity-80 transition-opacity">
+        <h3 className="font-inter text-[25px] font-normal leading-[36px] tracking-[-0.36px] text-portfolio-text hover:opacity-80 transition-opacity">
           {title}
         </h3>
       </Link>
-      <p className="body-small text-portfolio-text">
+      <p className="font-inter text-[20px] font-normal leading-[30px] tracking-[-0.27px] text-portfolio-text">
         {description}
       </p>
     </div>
