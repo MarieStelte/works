@@ -194,7 +194,7 @@ export default function Index() {
 
           {/* Copyright */}
           <div className="pt-16">
-            <p className="body-small text-portfolio-text">
+            <p className="font-inter text-[15px] font-normal leading-[30px] tracking-[-0.27px] text-portfolio-text">
               Copyright 2025 Marie Stelte
             </p>
           </div>
